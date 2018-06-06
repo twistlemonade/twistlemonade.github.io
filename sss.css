@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
+
+body {
+  background-color: #bdc3c7;
+}
+
+h1 {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 55px;
+  text-align: center;
+  color: #2c3e50;
+  padding: 50px;
+}
+/*
+h1:hover {
+  color: #6c43a1;
+  transition-duration: .3s;
+  text-shadow: 1px black;
+  cursor: default;
+} */
