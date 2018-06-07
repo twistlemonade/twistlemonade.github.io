@@ -22,7 +22,7 @@ body {
 /* ----------------------------------- */
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1)) ,url(header.jpg);
+  background-image: linear-gradient(rgba(35, 34, 92, 0.8), rgba(35, 34, 92, 0.8)) ,url(header.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -36,16 +36,60 @@ header {
   left: 10%;
 }
 
+.header-text p {
+  margin-top: 30px;
+  color: #dedede;
+}
+
 h1 {
   font-family: 'Josefin Sans';
   margin: 0;
-  color: #bababa;
+  color: #dedede;
   font-size: 240%;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  word-spacing: 4px;
 }
 
+.btn-header:link,
+.btn-header:visited {
+  margin-top: 40px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  border-radius: 1px;
+  transition: all 0.3s;
+  text-align: center;
+  width: 170px;
+}
+
+.btn-header span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn-header span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn-header:hover span {
+  padding-right: 25px;
+}
+
+.btn-header:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.btn-header:hover {
+  background-color: #101b1d;
+}
 
 /* ----------------------------------- */
 /* PHOTOS */
