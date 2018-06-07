@@ -9,20 +9,43 @@
 }
 
 body {
-  background-color: #323232;
+  background-color: #fff;
+  color: #555;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
 }
 
-p {
-  font-family: "Lato", sans-serif;
-  margin-left: 15%;
-  font-size: 23px;
-  text-transform: uppercase;
-  color: #a2a2a2;
-  border-bottom: 3px solid lightgray;
-  width: 69%;
-  padding: 30px;
-  text-align: center;
+/* ----------------------------------- */
+/* HEADER */
+/* ----------------------------------- */
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1)) ,url(header.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
 }
+
+.header-text {
+  position: absolute;
+  width: 900px;
+  top: 25%;
+  left: 10%;
+}
+
+h1 {
+  font-family: 'Josefin Sans';
+  margin: 0;
+  color: #bababa;
+  font-size: 240%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+}
+
 
 /* ----------------------------------- */
 /* PHOTOS */
