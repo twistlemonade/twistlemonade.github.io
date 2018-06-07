@@ -12,9 +12,16 @@ body {
   background-color: #323232;
 }
 
-h1 {
-  font-family: Lato;
-  
+p {
+  font-family: "Lato", sans-serif;
+  margin-left: 15%;
+  font-size: 23px;
+  text-transform: uppercase;
+  color: #a2a2a2;
+  border-bottom: 3px solid lightgray;
+  width: 69%;
+  padding: 30px;
+  text-align: center;
 }
 
 /* ----------------------------------- */
@@ -22,9 +29,9 @@ h1 {
 /* ----------------------------------- */
 
 .photo-showcase {
+  margin: 30px auto;
   list-style: none;
   width: 70%;
-  margin: 0 auto;
 }
 
 .photo-showcase li {
