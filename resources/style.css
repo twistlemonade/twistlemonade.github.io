@@ -17,6 +17,15 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+.clearfix {zoom: 1}
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
 /* ----------------------------------- */
 /* HEADER */
 /* ----------------------------------- */
@@ -95,6 +104,10 @@ h1 {
 /* PHOTOS */
 /* ----------------------------------- */
 
+.section-photo {
+  padding: 0;
+}
+
 .photo-showcase {
   margin: 30px auto;
   list-style: none;
@@ -125,4 +138,79 @@ h1 {
 .foto img:hover {
   transform: scale(1.03);
   opacity: 1;
+}
+
+/* ----------------------------------- */
+/* FOOTER */
+/* ----------------------------------- */
+
+footer {
+  height: 150px;
+  background-color: #121d1f;
+  clear: both;
+  padding: 30px 100px;
+}
+
+.footer-links {
+  list-style: none;
+  float: left;
+}
+
+.footer-icons {
+  list-style: none;
+  float: right;
+}
+
+footer p {
+  clear: both;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 15px;
+}
+
+.footer-links li,
+.footer-icons li {
+  display: inline-block;
+}
+
+.footer-links a:link,
+.footer-links a:visited,
+.footer-icons a:link,
+.footer-icons a:visited {
+  color: #868686;
+  text-decoration: none;
+  margin-left: 10px;
+  transition: color 0.5s;
+}
+
+.footer-icons a {
+  font-size: 20px;
+}
+
+.footer-links a {
+  font-size: 15px;
+}
+
+.fa-heart {
+  color: #d32f2f;
+}
+
+.footer-links a:hover {
+  color: #c1c1c1;
+}
+
+.fa-facebook-square:hover {
+  color: #3b5999;
+}
+
+.fa-instagram:hover {
+  color: #e4405f;
+}
+
+.fa-github-square:hover {
+  color: #4c75a3;
+}
+
+.fa-dribbble-square:hover {
+  color: #ea4c89;
 }
