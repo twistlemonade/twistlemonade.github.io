@@ -99,6 +99,51 @@ h1 {
 .btn-header:hover {
   background-color: #101b1d;
 }
+/*
+ NAVBAR 
+
+.btn-main {
+  float: left;
+  color: #f4f5f6;
+  padding-left: 5%;
+
+}
+
+.btn-second {
+  float: right;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 70%;
+  padding-right: 5%;
+}
+
+.btn-second li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+nav {
+  background-color: #121d1f;
+  padding: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f4f5f6;
+  letter-spacing: 1px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #121d1f;
+  padding: 25px;
+  z-index: 9999;
+  box-shadow: 0 2px 2px #d2d2d2;
+*/
 
 /* ----------------------------------- */
 /* PHOTOS */
@@ -106,6 +151,7 @@ h1 {
 
 .section-photo {
   padding: 0;
+  clear: both;
 }
 
 .photo-showcase {
