@@ -1,0 +1,49 @@
+/* ----------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #323232;
+}
+
+/* ----------------------------------- */
+/* PHOTOS */
+/* ----------------------------------- */
+
+.photo-showcase {
+  list-style: none;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.photo-showcase li {
+  display: block;
+  float: left;
+  width: 33%;
+}
+
+.foto {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.foto img {
+  opacity: 0.7;
+  width: 100%;
+  height: auto;
+  transform: scale(1.15);
+  transition: 0.3s;
+}
+
+.foto img:hover {
+  transform: scale(1.03);
+  opacity: 1;
+}
