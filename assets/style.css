@@ -99,6 +99,16 @@ h1 {
 .btn-header:hover {
   background-color: #101b1d;
 }
+
+section {
+  width: 60%;
+  height: 700px;
+  background-color: #d4ac8a;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 /*
  NAVBAR
 
@@ -145,7 +155,6 @@ nav a {
   box-shadow: 0 2px 2px #d2d2d2;
 */
 
-
 /* Style the navbar */
 #navbar {
   overflow: hidden;
@@ -178,7 +187,6 @@ nav a {
 .sticky + .content {
   padding-top: 60px;
 }
-
 
 /* ----------------------------------- */
 /* PHOTOS */
