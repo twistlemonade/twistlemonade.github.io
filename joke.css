@@ -1,0 +1,20 @@
+.quote {
+  padding: 10px;
+  font-size: 130%;
+  height: 80px;
+}
+
+.generate {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  background-color: #2e2a75;
+  color: #ffffff;
+  transition: all 0.3s;
+  font-style: italic;
+}
+
+.generate:hover {
+background-color: #6460ac;
+font-style: italic;
+}

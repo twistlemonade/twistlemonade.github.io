@@ -1,3 +1,14 @@
+section {
+  margin: 0 auto;
+  background-color: #b9d5db;
+  height: 600px;
+  width: 80%;
+  margin-top: 20px;
+}
+.last {
+  margin-bottom: 20px;
+}
+
 /* ----------------------------------- */
 /* BASIC SETUP */
 /* ----------------------------------- */
@@ -27,6 +38,8 @@ body {
   visibility: hidden;
 }
 
+
+
 /* ----------------------------------- */
 /* HEADER */
 /* ----------------------------------- */
@@ -49,14 +62,6 @@ header {
 .header-text p {
   margin-top: 30px;
   color: #dedede;
-}
-
-h1 {
-  font-family: 'Josefin Sans';
-  margin: 0;
-  color: #dedede;
-  font-size: 240%;
-  text-transform: uppercase;
 }
 
 /* ----------------------------------- */
@@ -84,7 +89,7 @@ nav a:hover {
 }
 
 .content {
-  padding-top: 120px;
+  padding-top: 16px;
 }
 
 .sticky {
@@ -95,4 +100,48 @@ nav a:hover {
 
 .sticky + .content {
   padding-top: 60px;
+}
+
+
+/* ----------------------------------- */
+/* FOOTER */
+/* ----------------------------------- */
+
+footer {
+  height: 150px;
+  background-color: #121d1f;
+  clear: both;
+  padding: 30px 100px;
+}
+
+.footer-links {
+  list-style: none;
+  float: left;
+}
+
+
+footer p {
+  clear: both;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 15px;
+}
+
+.footer-links li,
+.footer-icons li {
+  display: inline-block;
+}
+
+.footer-links a:link,
+.footer-links a:visited,
+.footer-icons a:link,
+.footer-icons a:visited {
+  color: #868686;
+  text-decoration: none;
+  margin-left: 10px;
+  transition: color 0.5s;
+}
+
+.footer-links a {
+  font-size: 15px;
 }

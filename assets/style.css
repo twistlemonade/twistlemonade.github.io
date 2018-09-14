@@ -100,68 +100,23 @@ h1 {
   background-color: #101b1d;
 }
 
-section {
+/* section {
   width: 60%;
   height: 700px;
   background-color: #d4ac8a;
   margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 10px;
-}
-
-/*
- NAVBAR
-
-.btn-main {
-  float: left;
-  color: #f4f5f6;
-  padding-left: 5%;
-
-}
-
-.btn-second {
-  float: right;
-  list-style: none;
-  text-transform: uppercase;
-  font-weight: 100;
-  font-size: 70%;
-  padding-right: 5%;
-}
-
-.btn-second li {
-  display: inline-block;
-  margin-right: 30px;
-}
-
-nav {
-  background-color: #121d1f;
-  padding: 25px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #f4f5f6;
-  letter-spacing: 1px;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #121d1f;
-  padding: 25px;
-  z-index: 9999;
-  box-shadow: 0 2px 2px #d2d2d2;
-*/
+} */
 
 /* Style the navbar */
+/*
 #navbar {
   overflow: hidden;
   background-color: #333;
 }
 
-/* Navbar links */
+
 #navbar a {
   float: left;
   display: block;
@@ -171,23 +126,23 @@ nav a {
   text-decoration: none;
 }
 
-/* Page content */
+
 .content {
   padding: 16px;
 }
 
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
+
+ .sticky {
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+
 .sticky + .content {
   padding-top: 60px;
 }
-
+*/
 /* ----------------------------------- */
 /* PHOTOS */
 /* ----------------------------------- */
