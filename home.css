@@ -5,8 +5,17 @@ section {
   width: 80%;
   margin-top: 20px;
 }
+
+section > h1 {
+  text-align: center;
+}
+
 .last {
   margin-bottom: 20px;
+}
+
+.section-todo {
+  background-image: radial-gradient(#979ced, #0f1b55);
 }
 
 /* ----------------------------------- */
