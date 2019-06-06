@@ -1019,7 +1019,7 @@ h4.panel-title {
     line-height: 1;
 }
 .progress.plain.green .bar {
-    background: #80c9c5 !important
+    background: #f39c12 !important
 }
 .progress.plain.forest .bar {
     background: #80c9a1 !important
@@ -1034,10 +1034,10 @@ h4.panel-title {
     background: #d77d8a !important
 }
 .progress.plain.blue .bar {
-    background: #73b2cf !important
+    background: #2980b9 !important
 }
 .progress.plain.purple .bar {
-    background: #808ec9 !important
+    background: #27ae60 !important
 }
 .progress.plain.pink .bar {
     background: #c989a9 !important
@@ -1046,7 +1046,7 @@ h4.panel-title {
     background: #e79965 !important
 }
 .progress.plain.navy .bar {
-    background: #5d6977 !important
+    background: #9b59b6 !important
 }
 .progress.plain.red .bar {
     background: #e96161 !important
