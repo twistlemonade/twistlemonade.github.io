@@ -258,24 +258,17 @@
                     <div class="col-sm-6 lp10">
                       <div class="form-field">
                         <label class="custom-select">
-                          
+                          <select name="department" required="required">
+                            <option value="">Subject</option>
+                            <option value="Sales">General</option>
+                            <option value="Sales">Say Hi</option>
+                            <option value="Sales">Other</option>
+                          </select>
                           <span></span> </label>
                       </div>
                     </div>
                     <div class="col-sm-12 text-center">
                       <textarea name="message" placeholder="Type your message here..." required="required"></textarea>
-                      <div class="radio-set">
-                        <label>Subject:</label>
-                        <label>
-                          <input type="radio" name="subject" value="General">
-                          <span></span> General</label>
-                        <label>
-                          <input type="radio" name="subject" value="Hi">
-                          <span></span> Say Hi</label>
-                        <label>
-                          <input type="radio" name="subject" value="Other">
-                          <span></span> Other</label>
-                      </div>
                       <input type="submit" class="btn btn-submit" value="Send" data-error="Fix errors" data-processing="Sending..." data-success="Thank you!">
                       <footer class="notification-box"></footer>
                     </div>
