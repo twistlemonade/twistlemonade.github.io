@@ -1051,6 +1051,21 @@ h4.panel-title {
 .progress.plain.red .bar {
     background: #e96161 !important
 }
+.progress.plain.nephritis .bar {
+    background: #27ae60 !important
+}
+.progress.plain.pomegranate .bar {
+    background: #e74c3c !important
+}
+.progress.plain.belize .bar {
+    background: #2980b9 !important
+}
+.progress.plain.amethist .bar {
+    background: #9b59b6 !important
+}
+.progress.plain.orange2 .bar {
+    background: #f39c12 !important
+}
 /*-----------------------------------------------------------------------------------*/
 /*	11. FORMS
 /*-----------------------------------------------------------------------------------*/
