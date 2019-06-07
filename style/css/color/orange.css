@@ -84,9 +84,14 @@ blockquote {
 .vanilla-form input[type="checkbox"] + span::after {
     border: 0 solid #34495e;
 }
-.social li a:hover {
-    color: #34495e !important;
+.social li i.fa-facebook-f:hover {
+    color: #3b5999 !important;
 }
+
+.social li i:fa-instagram {
+    color: #e4405f !important;
+}
+
 .lg-outer .lg-thumb-item.active,
 .lg-outer .lg-thumb-item.active:hover {
     border-color: #34495e
