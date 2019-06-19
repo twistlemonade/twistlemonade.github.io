@@ -288,7 +288,7 @@ h6 {
 	padding: 60px;
 }
 .content-left {
-	background: linear-gradient(0deg,#000,#535c684d), url("style/images/art/bg.jpg") no-repeat center center;
+	background: linear-gradient(0deg,#000,#00000000), url("style/images/art/bg.jpg") no-repeat center center;
 	background-size: cover;
 }
 .site-name {
@@ -492,6 +492,7 @@ blockquote .author {
 }
 .modal-backdrop {
     -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 .modal-backdrop.unfold-3d {
     perspective: 500;
@@ -692,7 +693,6 @@ figure {
 }
 figure img {
     display: inline;
-    width: 100%;
 }
 figure img.img-auto {
     width: auto;
